@@ -1,14 +1,15 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Обо мне", link: "#about" },
+  { name: "Проекты", link: "#projects" },
+  { name: "Рекомендации", link: "#testimonials" },
+  { name: "Контакты", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "Я уделяю приоритетное внимание сотрудничеству с клиентами, способствуя открытому общению",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Я очень гибко отношусь к связи по часовым поясам",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Используемые технологии",
+    description: "Я постоянно стараюсь совершенствоваться",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Технический энтузиаст со страстью к разработке.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +50,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "В настоящее время изучаю принципы анимации на JS",
+    description: "Текущее..",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Вы хотите начать совместный проект?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,11 +73,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Fit Friends - социальная сеть любителей спортзалов",
+    des: "Позволяет находить друзей, тренеров. Общаться, встречаться и эффективно проводить время.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "",
   },
   {
     id: 2,
@@ -107,33 +108,21 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Сотрудничать с Алексеем было настоящим удовольствием. Его профессионализм, оперативность и преданность делу достижения исключительных результатов были очевидны на протяжении всего нашего проекта. Энтузиазм Адриана по отношению к каждому аспекту разработки действительно выделяется на общем фоне. Если вы хотите улучшить свой веб-сайт и свой бренд, Алексей - идеальный партнер.",
+    name: "Михаил Сапожков",
+    title: "Директор производства продуктов питания",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Сотрудничать с Алексеем было настоящим удовольствием. Его профессионализм, оперативность и преданность делу достижения исключительных результатов были очевидны на протяжении всего нашего проекта. Энтузиазм Адриана по отношению к каждому аспекту разработки действительно выделяется на общем фоне. Если вы хотите улучшить свой веб-сайт и свой бренд, Алексей - идеальный партнер.",
+    name: "Михаил Сапожков",
+    title: "Директор производства продуктов питания",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Сотрудничать с Алексеем было настоящим удовольствием. Его профессионализм, оперативность и преданность делу достижения исключительных результатов были очевидны на протяжении всего нашего проекта. Энтузиазм Адриана по отношению к каждому аспекту разработки действительно выделяется на общем фоне. Если вы хотите улучшить свой веб-сайт и свой бренд, Алексей - идеальный партнер.",
+    name: "Михаил Сапожков",
+    title: "Директор производства продуктов питания",
   },
 ];
 
@@ -173,29 +162,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Студент курса HtmlAcademy.ru",
+    desc: "Проходил 6 курсов. От простого веб сайта до интерактивных приложений с использованием React.js, а также создание серверных приложений для сайтов",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: 'Стажировка в IT компании "Liga A"',
+    desc: "Повышал скорость и эффективность разработки fullstack веб приложений.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Проект фрилансера по разработке приложений",
+    desc: "Разрабатывал приложение для клиента, от первоначальной концепции до размещения на хостинге.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Следующий этап",
+    desc: "Хотелось бы сделать что-то очень большое и полезное людям!.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +194,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/mabori1",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/telegram.svg",
+    href: "https://t.me/Mabori1",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/discord.svg",
+    href: "https://discord.gg/mEPdCSJr",
   },
 ];

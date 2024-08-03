@@ -54,7 +54,7 @@ export const BentoGridItem = ({
   const rightLists = ["VueJS", "NestJS", "Redux"];
 
   const handleClick = () => {
-    navigator.clipboard.writeText("ph.makflya@mail.ru");
+    navigator.clipboard.writeText("makeevhome@gmail.com");
     setCopied(true);
   };
 
@@ -71,7 +71,7 @@ export const BentoGridItem = ({
       }}
     >
       <div className={`${id === 6 && "flex items-center"} h-full`}>
-        <div className="absolute h-full w-full">
+        <div className="absolute size-full">
           {img && (
             <img
               src={img}
@@ -93,25 +93,27 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
-            {/* <div className="absolute z-50 flex items-center justify-center font-bold text-white" /> */}
+            <div className="pointer-events-none absolute inset-0 z-50 flex items-center justify-center px-4 text-center text-3xl font-bold text-white md:text-4xl lg:text-7xl"></div>
           </BackgroundGradientAnimation>
         )}
         <div
           className={cn(
             titleClassName,
-            "relative flex min-h-40 flex-col p-5 px-5 transition duration-200 group-hover/bento:translate-x-2 md:w-full lg:p-10",
+            "relative flex min-h-40 flex-col p-5 px-5 transition duration-200 group-hover/bento:translate-x-2 md:h-full lg:p-10",
           )}
         >
-          <div className="z-10 font-sans text-sm font-extralight text-[#c1c2d3] dark:text-neutral-200 md:text-xs lg:text-base">
+          <div className="z-10 font-sans text-sm font-extralight text-[#C1C2D3] md:max-w-32 md:text-xs lg:text-base">
             {description}
           </div>
-          <div className="z-10 max-w-96 font-sans text-lg font-bold text-neutral-600 dark:text-neutral-200 lg:text-3xl">
+          <div
+            className={`z-20 max-w-96 font-sans text-lg font-bold lg:text-3xl`}
+          >
             {title}
           </div>
           {id === 2 && <GlobeDemo />}
           {/* Tech stack list div */}
           {id === 3 && (
-            <div className="absolute -right-3 -top-[0.5rem] flex w-fit gap-1 lg:-right-2 lg:gap-5">
+            <div className="absolute -right-3 top-[1rem] flex w-fit gap-1 lg:-right-2 lg:gap-5">
               {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-4">
                 {leftLists.map((item, i) => (

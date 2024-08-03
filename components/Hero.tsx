@@ -3,7 +3,7 @@ import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
-const text = "Наши интерьеры не только красивые, но и функциональные";
+const text = "Преобразование концепций в единый пользовательский опыт";
 
 const Hero = () => {
   return (
@@ -28,16 +28,16 @@ const Hero = () => {
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vh] flex-col items-center md:max-w-2xl lg:max-w-[60vw]">
           <h2 className="max-w-80 text-center text-xl font-bold uppercase tracking-wide text-blue-100">
-            Dynamic Web Magic with Next.js
+            Магические и динамичные сайты с Next.js
           </h2>
           <TextGenerateEffect
             words={text}
             className="mt-6 text-center text-[40px] font-bold text-white md:text-5xl lg:text-6xl"
           />
           <p className="my-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
-            Привет! Я Галина. Дизайнер интерьеров из Краснодара
+            Привет! Я Алексей. Веб разработчик из Краснодара
           </p>
-          <a href="#about" className="">
+          <a href="#projects" className="">
             <MagicButton
               title="Показать мои работы"
               icon={<FaLocationArrow />}

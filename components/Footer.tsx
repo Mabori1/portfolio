@@ -5,7 +5,7 @@ import { socialMedia } from "@/data";
 
 const Footer = () => {
   return (
-    <footer className="w-full pb-10 pt-20" id="contact">
+    <footer className="mb-[100px] w-full pb-10 md:mb-5" id="contact">
       <div className="absolute -bottom-72 left-0 min-h-72 w-full">
         <img
           src="/footer-grid.svg"
@@ -18,7 +18,7 @@ const Footer = () => {
           Готов вывести <span className="text-purple">Ваше</span> цифровое
           присутствие на новый уровень
         </h1>
-        <p className="mt-5 text-center text-lg text-white-200 md:mt-10">
+        <p className="my-5 text-center text-lg text-white-200 md:mt-10">
           Свяжитесь со мной сегодня, и давайте обсудим, как я могу помочь вам
           достичь ваших целей
         </p>
@@ -30,8 +30,8 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="mt-16 flex flex-col items-center justify-between md:flex-row">
-        <p className="text-sm font-light md:text-base md:font-normal">
+      <div className="mt-10 flex flex-col items-center justify-between md:flex-row">
+        <p className="my-5 text-sm font-light md:text-base md:font-normal">
           Copyright © 2024 Алексей Макеев
         </p>
 

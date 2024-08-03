@@ -18,7 +18,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "mx-auto grid max-w-7xl grid-cols-1 gap-4 md:auto-rows-[18rem] md:grid-cols-3",
+        "md:grid-row-7 mx-auto grid grid-cols-1 gap-4 md:grid-cols-6 lg:grid-cols-5 lg:gap-8",
         className,
       )}
     >
@@ -49,6 +49,9 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const [copied, setCopied] = useState(false);
+
+  const leftLists = ["ReactJS", "Express", "Typescript"];
+  const rightLists = ["VueJS", "NestJS", "Redux"];
 
   const handleClick = () => {
     navigator.clipboard.writeText("ph.makflya@mail.ru");
@@ -106,25 +109,27 @@ export const BentoGridItem = ({
             {title}
           </div>
           {id === 2 && <GlobeDemo />}
+          {/* Tech stack list div */}
           {id === 3 && (
-            <div className="absolute -right-3 flex w-fit gap-1 lg:-right-2 lg:gap-5">
-              <div className="flex flex-col gap-3 lg:gap-8">
-                {["React.js", "Next.js", "TypeScript"].map((item, index) => (
+            <div className="absolute -right-3 -top-[0.5rem] flex w-fit gap-1 lg:-right-2 lg:gap-5">
+              {/* tech stack lists */}
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-4">
+                {leftLists.map((item, i) => (
                   <span
-                    className="rounded-lg bg-[#10132e] px-3 py-2 text-center text-xs opacity-50 lg:px-4 lg:py-4 lg:text-base lg:opacity-100"
-                    key={index}
+                    key={i}
+                    className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
                   >
                     {item}
                   </span>
                 ))}
-                <span className="rounded-lg bg-[#10132e] px-3 py-4" />
+                <span className="rounded-lg bg-[#10132E] px-3 py-4 text-center lg:px-3 lg:py-4"></span>
               </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="rounded-lg bg-[#10132e] px-3 py-4" />
-                {["Nest.js", "PostrgeSQL", "Node.js"].map((item, index) => (
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-4">
+                <span className="rounded-lg bg-[#10132E] px-3 py-4 text-center lg:px-3 lg:py-4"></span>
+                {rightLists.map((item, i) => (
                   <span
-                    className="rounded-lg bg-[#10132e] px-3 py-2 text-center text-xs opacity-50 lg:px-4 lg:py-4 lg:text-base lg:opacity-100"
-                    key={index}
+                    key={i}
+                    className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
                   >
                     {item}
                   </span>

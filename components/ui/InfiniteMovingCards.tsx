@@ -107,7 +107,7 @@ export const InfiniteMovingCards = ({
                 <span className="flex flex-col gap-1">
                   <div className="me-3 size-10">
                     <img
-                      src="/profile.png"
+                      src="./profile.png"
                       alt="profile"
                       className="rounded-full"
                     />

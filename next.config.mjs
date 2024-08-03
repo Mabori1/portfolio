@@ -2,8 +2,6 @@ import { withSentryConfig } from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "https://github.com/Mabori1/portfolio",
-  assetPrefix: "https://github.com/Mabori1/portfolio",
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -48,4 +46,3 @@ export default withSentryConfig(nextConfig, {
   // https://vercel.com/docs/cron-jobs
   automaticVercelMonitors: true,
 });
-
